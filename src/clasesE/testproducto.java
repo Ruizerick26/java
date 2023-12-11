@@ -5,23 +5,25 @@ public class testproducto {
 		Producto productoA = new Producto();
 		Producto productoB = new Producto();
 		Producto productoC = new Producto();
-		productoA.nombre = "Ibuprofeno";
-		productoA.descripcion = "Impedir que el cuerpo elabore sustancias que causan inflamación";
-		productoA.precio = (float) 0.65;
-		productoA.stock = 100;
-		productoB.nombre = "Diclofenaco";
-		productoB.descripcion = "Se usa para tratar los síntomas de la artritis reumatoide";
-		productoB.precio = (float) 0.50;
-		productoB.stock = 80;
-		productoB.nombre = "Neogripal";
-		productoB.descripcion = "Cápsulas para el alivio de los síntomas de la gripe y otras afecciones respiratorias";
-		productoB.precio = (float) 0.70;
-		productoB.stock = 70;
-		System.out.println("Nombre: "+ productoA.nombre + "\nDescripcion: " + productoA.descripcion
-				+ "\nprecio: " + productoA.precio + "\nStock: "+productoA.stock);
-		System.out.println("Nombre: "+ productoB.nombre + "\nDescripcion: " + productoB.descripcion
-				+ "\nprecio: " + productoB.precio + "\nStock: "+productoB.stock);
-		System.out.println("Nombre: "+ productoB.nombre + "\nDescripcion: " + productoB.descripcion
-				+ "\nprecio: " + productoB.precio + "\nStock: "+productoB.stock);
+		productoA.setNombre("Ibuprofeno");
+		productoA.setDescripcion("Impedir que el cuerpo elabore sustancias que causan inflamación");
+		productoA.setPrecio(0.65);
+		productoA.setStock(100);
+		productoB.setNombre("Diclofenaco");
+		productoB.setDescripcion("Se usa para tratar los síntomas de la artritis reumatoide");
+		productoB.setPrecio(0.50);
+		productoB.setStock(80);
+		productoB.setNombre("Neogripal");
+		productoB.setDescripcion("Cápsulas para el alivio de los síntomas de la gripe y otras afecciones respiratorias");
+		productoB.setPrecio(0.70);
+		productoB.setStock(70);
+		System.out.println("Nombre: "+ productoA.getNombre() + "\nDescripcion: " + productoA.getDescripcion()
+				+ "\nprecio: " + productoA.getPrecio() + "\nStock: "+productoA.getStock());
+		System.out.println("Nombre: "+ productoB.getNombre() + "\nDescripcion: " + productoB.getDescripcion()
+		+ "\nprecio: " + productoB.getPrecio() + "\nStock: "+productoB.getStock());
+		System.out.println("Nombre: "+ productoC.getNombre() + "\nDescripcion: " + productoC.getDescripcion()
+		+ "\nprecio: " + productoC.getPrecio() + "\nStock: "+productoC.getStock());
+		
+		
 	}
 }
