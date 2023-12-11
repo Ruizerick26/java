@@ -2,9 +2,9 @@ package clasesE;
 
 public class testproducto {
 	public static void main(String[] args) {
-		Producto productoA = new Producto();
-		Producto productoB = new Producto();
-		Producto productoC = new Producto();
+		Producto productoA = new Producto("a","b",0.2,1);
+		Producto productoB = new Producto("c","d",0.2,1);
+		Producto productoC = new Producto("e","f",0.2,1);
 		productoA.setNombre("Ibuprofeno");
 		productoA.setDescripcion("Impedir que el cuerpo elabore sustancias que causan inflamación");
 		productoA.setPrecio(0.65);

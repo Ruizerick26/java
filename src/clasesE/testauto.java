@@ -2,8 +2,8 @@ package clasesE;
 
 public class testauto {
 	public static void main(String[] args) {
-		Auto auto1 = new Auto();
-		Auto auto2 = new Auto();
+		Auto auto1 = new Auto("a",2,2.9);
+		Auto auto2 = new Auto("b",2,2.9);
 		auto1.setMarca("Ferrari"); 
 		auto1.setAnio(2017);
 		auto1.setPrecio(25000.200);
